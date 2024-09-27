@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(10, 12, 27);
+}
+.container{
+    
+    padding: 20px;
+    color: white;
+    display: flex;
+    height: 40%;
+    width: 70% ;
+    /* position: relative;
+    top: 50%; */
+    margin-top: 120px;
+    margin-left: 200px;
+
+}
+
+.container2{
+    background-color: rgb(28, 25, 56);
+    width: 40%;
+    padding: 47px;
+    
+}
+
+.container2 a{
+    color: #9F74CB;
+    text-decoration: none;
+}
+
+.section{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    line-height: 5px;
+   
+}
+
+.container3{
+    /* height: ; */
+    width: 60%;
+    height: 30px;
+}
+
+.container3::before{
+    content: '';
+    position: absolute;
+    background-color: #a257d192 ;
+    height: 316px;
+    width: 28%;
+}
+
+.container3 img{
+    height: 317PX;
+}
+
+.stat h2{
+    font-size: 18px;
+    padding-top: 40px;
+}
+
+.stat p{
+    font-size: 10px;
+}
+
+.paragraph{
+    font-size: 13px;
+}
+
+.Business h1{
+    font-size: 25px;
+}
